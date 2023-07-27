@@ -1,4 +1,4 @@
-## Video Poker Game
+# Video Poker Game
 
 This is a command-line-based implementation of the popular casino game, Video Poker, with an added betting feature. The game is developed in Java and is based on the classes Card, Deck, Game, and Player. The objective of the game is to create the best possible poker hand from the cards dealt and earn rewards based on the bet placed.
 
