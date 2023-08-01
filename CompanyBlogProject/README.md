@@ -1,7 +1,7 @@
 # Company Blog Project
 
-During my spare time of summer 2023, I took a flask course with the objectives to learn how the front-end and the back-end communicate with each other. 
-The final project involved working on a company blog for mutiple users.
+During my spare time in summer 2023, I took a Flask course to learn how the front-end and back-end communicate. 
+The final project involved working on a multi-user company blog.
 
 Project Features: 
 
@@ -15,4 +15,4 @@ Comments: Allow users to leave comments on blog posts.
 Responsive Design: Ensure the blog looks good and functions well on various devices, including desktops, tablets, and smartphones.
 About Page: Add a page with brief information about the company or the blog.
 
-Please refer to requirements.txt, there you will find all the required packages for the project 
+Please refer to requirements.txt for the project dependencies.
