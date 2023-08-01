@@ -1,2 +1,2 @@
-## Company Blog Project
+# Company Blog Project
 
