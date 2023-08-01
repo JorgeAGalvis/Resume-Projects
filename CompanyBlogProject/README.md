@@ -5,7 +5,7 @@ The final project involved working on a multi-user company blog.
 
 ## Project Features: 
 
-User Registration and Login: Allow users to create an account and log in using a username and password.
+User Registration and Login: Allow users to create an account and log in using a username and password. \n
 Create, Read, Update, Delete (CRUD): Users can create new blog posts, view their own posts, edit their posts, and delete their posts.
 Basic Styling: Apply simple styling to the blog for a clean and attractive appearance.
 Home Page: Create a home page displaying a list of the most recent blog posts.
