@@ -3,7 +3,7 @@
 During my spare time in summer 2023, I took a Flask course to learn how the front-end and back-end communicate. 
 The final project involved working on a multi-user company blog.
 
-Project Features: 
+## Project Features: 
 
 User Registration and Login: Allow users to create an account and log in using a username and password.
 Create, Read, Update, Delete (CRUD): Users can create new blog posts, view their own posts, edit their posts, and delete their posts.
