@@ -5,7 +5,9 @@ Project chosen from my current database class, attached is a Jupyter notebook th
 
 This project provides a CRUD (Create, Read, Update, Delete) API built with FastAPI and MySQL, allowing you to manage students and employees. 
 
-## Once the server is running, you can access the API using the following endpoints:
+## Overview
+
+Once the server is running, you can access the API using the following endpoints:
 
 Students
 - GET /students: Get all students or filter by query parameters.
@@ -21,10 +23,5 @@ Employees
 - PUT /employees/{employee_id}: Update an employee by ID.
 - DELETE /employees/{employee_id}: Delete an employee by ID.
 
-Query Parameters
-You can use query parameters to filter results or specify fields to be returned. For example:
-/students?first_name=John&fields=first_name,email: Get the first name and email of students named John.
-/employees?last_name=Doe: Get all employees with the last name Doe.
-Response Format
 
 All responses are in JSON format.   
