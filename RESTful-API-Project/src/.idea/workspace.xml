@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72af11bf-858f-407f-9845-c6a941e2f9df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HW0/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW0/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HW0/S24-W4111-HW0.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HW0/S24-W4111-HW0.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/OLD/s-2024-w4111-lecture-1.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/book-DDL.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/book-smallRelationsInsertFile.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/data-workflow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/s-2024-w4111-examples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/s-2024-w4111-lecture-1-v2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-1/s-2024-w4111-lecture-1-v2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-2/partial-data-engineering-examples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-2/s24-2024-w4111-lecture2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-2/s24-2024-w4111-lecture2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/More_Data_Engineering.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/S24_W4111_Lecture_3_Examples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/Screenshot 2024-02-01 at 12.51.27 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/datagrip_reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/db_book_schema.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/lucid_reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/s24-2024-w4111-lecture-3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-3/s24-2024-w4111-lecture-3.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-4/S24_W4111_Lecture_4_Examples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-4/data_clean_pipeline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-4/imdb_dataset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-4/s24-2024-w4111-lecture-4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-4/s24-2024-w4111-lecture-4.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lectures/s-2024-Lecture-4/transformed_professions.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../OLD/Lectures/Lecture_3_ER_Relational_SQL_2/02_s_2023_w4111_Lecture.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Assets/BookSampleDatabase/DDL.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Assets/BookSampleDatabase/largeRelationsInsertFile.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Assets/BookSampleDatabase/smallRelationsInsertFile.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Assets/Videos/AnacondaTest.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Assets/Videos/data_grip_connect.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Assets/Videos/rds_setup.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/Examples/sample_text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/SampleDatabases/book_database_create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/SampleDatabases/book_database_load.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/SampleDatabases/lahman-mysql-dump.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/SampleDatabases/mysqlsampledatabase.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/css/business-frontpage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/exams_assignments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Amelia-Wissink.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Anisha-Gupta.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Emily-Gul.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/JP-Suh.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Joshua-Zhou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Karla-Zuniga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Kavika-Krishnan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Maria-Luiza.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Mariam-Mustafa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Meixuan-Lu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Monirul-Islam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Rattandeep-Singh.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/Yifei-Luo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/aboutme.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/banner-page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/class-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/columbia-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/columbia-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/columbia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/expand_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/ferguson.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/ferguson2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/ivy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/images/muggles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/index_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/instructors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/instructors_TAs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/HongfeChen-IntroPhoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/HongfeChen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/IMG_3885.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Jainam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/JeSeungYou_Profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Lily Sam_headshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Naviya Makhija Headshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Naviya Makhija Headshot2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Rishav- Bio.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Roman.Matthew.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/SIQIXIE-headshot photo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-02 at 6.36.44 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-02 at 6.49.58 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-02 at 9.33.02 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-02 at 9.39.06 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-22 at 6.30.32 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-22 at 7.39.25 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-23 at 3.37.19 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2020-09-24 at 6.16.41 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2021-06-28 at 6.39.54 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/Screen Shot 2021-09-09 at 5.51.09 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/W4111F21_Banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/abhishek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/abhishek2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/aboutme.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/aishawarya.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/amber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ara-head.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/azhaan_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/bad_data.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/book_schema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/carrie-headshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/christina.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/class-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/columbia-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/columbia-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/columbia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/coms4111-slides-90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/country_state_city_schema.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/datasize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/datastructure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/db7book_page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/emily.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/erica_choi_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ericachoi_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/erin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/erin_headshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/expand_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ferguson.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ferguson2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/fives.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/forvs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/frances-cao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/gov_work.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/hw1_problem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ihme_csv_example.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ihme_finder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ihme_load_process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ihme_overview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ihme_variables.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/image_file_data.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/ivy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/karpagam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/landscape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/make_it_happen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/matthew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mauve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/mockaroo7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/muggles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/nd_photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/nygdb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/piazza_lazy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/pranav.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/python_and_db.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/python_ecosystem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/queryprocessing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/rashi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/requirements-meme.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/sakshi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/sam_ta_pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/samoh.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/sample_query_plan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/semi_structured_couchdb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/shao-chi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/sophie-reese-wirpsa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/sophieheadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/sqlite_and_notebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/su_li.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/swetha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/web_application_architecture_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/wendy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/what-theyre-back.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/old-images/wizard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/reference-material (AAP2k2BACxnVr4B's conflicted copy 2022-04-26).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/reference-material.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/syllabus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../docs/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2cqSQh0oWtPfT6fEpN2JNZWrnPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jag/Desktop/COMS4111/Homework/HW2/HW2 Programming/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72af11bf-858f-407f-9845-c6a941e2f9df" name="Changes" comment="" />
+      <created>1708837602089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708837602089</updated>
+      <workItem from="1708837603190" duration="37538000" />
+      <workItem from="1708890997861" duration="4421000" />
+      <workItem from="1709058389947" duration="426000" />
+      <workItem from="1710869134995" duration="719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
