@@ -24,7 +24,6 @@
                 </div>
             </div>
             <script>
-                // could not get this inside the search.js due to the jinja template 
                 var queryRegex = new RegExp('(' + queryToMatch + ')', 'gi');
                 $("#title_{{ movie.id }}").html(function(_, html) {
                     return html.replace(queryRegex, '<span class="highlight">$1</span>')
