@@ -1,0 +1,90 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename='view.js') }}"></script>
+<script>
+    var movieJSON =  {{ movie|tojson|safe }}
+</script>
+
+<div id="view-div">
+    <div class="view-row-main row">
+        <div class="view-poster col-2"> 
+            <img class="img-fluid" src="{{ movie.image }}" alt="{{movie.title}}">
+        </div>
+        <div id="view-main-info" class="col-2">
+            <span class="x-large-and-bold">{{ movie.title }} ({{ movie.year }})</span> <br>
+            {{ movie.score }} / 10<br>
+            <span class="light-gray">{{ movie.runtime }}</span> 
+        </div>
+        <div id="view-trailer" class="col-8">
+            <iframe width="100%" height="100%" src="{{ movie.trailer }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="view-row-info row">
+        <div class="col-8">
+            <div id="view-summary" class="row">
+                <span class="x-large-and-bold">Details:</span> 
+                <button id="view-edit-button" type="button" class="btn btn-secondary ml-auto">Edit</button>
+                <hr>
+                {{ movie.summary }}
+            </div>
+            <div id="view-secondary-info" class="row">
+                <div class="col-6">
+                    {% if movie.director %}
+                        <span class="bold">Director(s):</span> <br>
+                        {% for director in movie.director %}
+                            <div class="view-director-div gray">{{ director }}</div> {% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                        <br><br>
+                    {% endif %}
+                    {% if movie.genres %}
+                        <span class="bold">Genre:</span> <br>
+                        {% for genre in movie.genres %}
+                            <div class="view-genre-div gray">{{ genre }} </div>{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+                        <br><br>
+                    {% endif %}
+                    <span class="bold">Rating:</span> <br>
+                    <span class="gray">{{ movie.rating}}</span>
+                </div>
+                <div class="col-6">
+                    {% if movie.stars %}
+                        <span class="bold">Cast:</span> <br>
+                        {% for star in movie.stars %}
+                        <div class="view-cast-div gray">{{ star }}</div>
+                        {% endfor %}
+                        <br>
+                    {% endif %}
+                    <span class="bold">Budget:</span> <br>
+                    <span class="gray"> {{movie.budget }} </span>
+                </div>
+            </div>
+        </div>
+        <div id="view-summary-similar-div" class="col-4">
+            <div id="view-summary-similar-title" class="row">
+                {% if similar_movies %}
+                    <div class="large-and-bold"> You May Also Like: </div>
+                {% endif %}
+            </div>
+            <div class="row">
+                {% if similar_movies %}
+                    {% for similar_movie in similar_movies %}
+                    <div class="suggestion-div" data-id="{{ similar_movie.id }}">
+                        <div>
+                            <img class="suggestion-div-img img-fluid" src="{{ similar_movie.image }}" alt="{{ similar_movie.title }}">
+                        </div>
+                        <div class="suggestion-div-title">
+                            {{ similar_movie.title }}
+                        </div>
+                    </div>
+                    {% endfor %}    
+                {% endif %}
+            </div>
+        </div>
+    </div>    
+</div>
+
+{% endblock %}
+
+

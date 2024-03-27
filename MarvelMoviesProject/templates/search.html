@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename='search.js') }}"></script>
+<script>
+    var queryToMatch = {{ query|tojson|safe }}
+    var titlesToMatch = {{ filtered_by_title|tojson|safe }}
+</script>
+
+<div class="jumbotro justify-content-center mx-auto search-style">
+
+    {% if filtered_by_title %}
+        <div class="x-large-and-bold"> Showing results by title: <span class="highlight">{{ query }}</span></div>
+        <div>Matches found: {{ filtered_by_title|length }}</div><br>
+        
+        {% for movie in filtered_by_title %}
+            <div class="movie-div" data-id="{{ movie.id }}">
+                <div>
+                    <img class="movie-div-img img-fluid" src="{{ movie.image }}" alt="{{ movie.title }}">
+                </div>
+                <div class="movie-div-title" id="title_{{ movie.id }}">
+                    {{ movie.title }}
+                </div>
+            </div>
+            <script>
+                // could not get this inside the search.js due to the jinja template 
+                var queryRegex = new RegExp('(' + queryToMatch + ')', 'gi');
+                $("#title_{{ movie.id }}").html(function(_, html) {
+                    return html.replace(queryRegex, '<span class="highlight">$1</span>')
+                })
+            </script>
+        {% endfor %}
+
+    {% endif %}
+
+
+    {% if filtered_by_director %}
+        {% if filtered_by_title %}   
+        <br><br><br>
+        {% endif %}
+
+
+        <div class="x-large-and-bold"> Showing results by director/s: {{ query }}</div>
+        <div class="light-gray">Your search matches a director of these movies</div>
+        <div>Matches found: {{ filtered_by_director|length }}</div><br>
+        
+        {% for movie in filtered_by_director %}
+            <div class="movie-div" data-id="{{ movie.id }}">
+                <div>
+                    <img class="movie-div-img img-fluid" src="{{ movie.image }}" alt="{{ movie.title }}">
+                </div>
+                <div class="movie-div-title">
+                    {{ movie.title }}
+                </div>
+            </div>
+        {% endfor %}
+
+    {% endif %}
+
+
+    {% if filtered_by_star %}
+        {% if filtered_by_director %}   
+            <br><br><br>
+        {% endif %}
+
+        <div class="x-large-and-bold"> Showing results by cast member: {{ query }}</div>
+        <div class="light-gray">Your search matches an actor/actress who played a role in these movies</div>
+        <div>Matches found: {{ filtered_by_star|length }}</div><br>
+        
+        {% for movie in filtered_by_star %}
+            <div class="movie-div" data-id="{{ movie.id }}">
+                <div>
+                    <img class="movie-div-img img-fluid" src="{{ movie.image }}" alt="{{ movie.title }}">
+                </div>
+                <div class="movie-div-title">
+                    {{ movie.title }}
+                </div>
+            </div>
+        {% endfor %}
+
+    {% endif %}
+
+
+    {% if filtered_by_genre %}
+        {% if filtered_by_star %}   
+            <br><br><br>
+        {% endif %}
+
+        <div class="x-large-and-bold"> Showing results by genre: {{ query }}</div>
+        <div>Matches found: {{ filtered_by_genre|length }}</div><br>
+        
+        {% for movie in filtered_by_genre %}
+            <div class="movie-div" data-id="{{ movie.id }}">
+                <div>
+                    <img class="movie-div-img img-fluid" src="{{ movie.image }}" alt="{{ movie.title }}">
+                </div>
+                <div class="movie-div-title">
+                    {{ movie.title }}
+                </div>
+            </div>
+        {% endfor %}
+
+    {% endif %}
+
+
+    {% if not filtered_by_title and not filtered_by_director and not filtered_by_star and not filtered_by_genre %}
+
+        <div class="x-large-and-bold"> No results found</div>
+
+    {% endif %}
+
+</div>
+
+
+{% endblock %}
+

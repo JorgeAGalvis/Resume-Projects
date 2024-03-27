@@ -1,0 +1,153 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename='add.js') }}"></script>
+<script>
+    var similarMovies = {{ similar_movies|tojson|safe }}
+</script>
+
+<div id="new-entry-div" class="d-flex justify-content-center"></div>
+<div class="jumbotron justify-content-center mx-auto form-style">
+    <form id="add-form">
+        <div class="form-row">
+            <div class="form-group col-4">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="ex. Iron Man">
+                <div id="title-warning-div"></div>
+            </div>
+            <div class="form-group col-4">
+                <label for="year">Year</label>
+                <input type="number" class="form-control" id="year" placeholder="2012">
+                <div id="year-warning-div"></div>
+            </div>
+            <div class="form-group col-4">
+                <label for="runtime">Runtime</label>
+                <div class="input-group">
+                    <input type="number" class="form-control" id="runtime-hours" placeholder="Hours">
+                    <input type="number" class="form-control" id="runtime-minutes" placeholder="Minutes">
+                </div>
+                <div id="runtime-warning-div"></div>
+            </div>
+            
+        </div>
+
+
+        <div class="form-row">
+            <div class="form-group col-6">
+                <label for="trailer">Trailer</label>
+                <input type="text" class="form-control" id="trailer" placeholder="https://www.youtube.com/embed/...">
+                <div id="trailer-warning-div"></div>
+            </div>
+
+            <div class="form-group col-6">
+                <label for="image">Image</label>
+                <input type="text" class="form-control" id="image" placeholder="Image link">
+                <div id="image-warning-div"></div>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-4">
+                <label for="score">Score</label>
+                <input type="number" class="form-control" id="score" placeholder="7.3" step="any">
+                <div id="score-warning-div"></div>
+            </div>
+            <div class="form-group col-4">
+                <label for="budget">Budget</label>
+                <input type="text" class="form-control" id="budget" placeholder="180000000">
+                <div id="budget-warning-div"></div>
+            </div>
+            <div class="form-group col-4">
+                <label for="rating">Rating</label>
+                <select class="form-control" id="rating">
+                    <option>PG-13</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-6">
+                <label for="genre">Genres</label>
+                <div id="genre-warning-div"></div>
+                <div class="input-group">
+                    <select class="form-control" id="num-genres">
+                        <option disabled selected>Select an option</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div id="genres-inputs">
+
+                </div>
+            </div>
+            <div class="form-group col-6">
+                <label for="similar">Similar</label>
+                <div id="similar-warning-div"></div>
+                <div class="input-group">
+                    <select class="form-control" id="num-similar">
+                        <option disabled selected>Select an option</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div id="similar-inputs">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="directors">Directors</label>
+            <div id="directors-warning-div"></div>
+            <div class="input-group">
+                <select class="form-control" id="num-directors">
+                    <option disabled selected>Select an option</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div id="directors-inputs">
+
+            </div>
+        </div>
+    
+    
+        <div class="form-group">
+            <label for="stars">Stars</label>
+            <div id="stars-warning-div"></div>
+            <div class="input-group">
+                <select class="form-control" id="num-stars">
+                    <option disabled selected>Select an option</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div id="stars-inputs">
+
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="summary">Summary</label>
+            <textarea class="form-control" id="summary" placeholder="Peter Parker is Spider-Man" maxlength="270"></textarea>
+            <div id="summary-warning-div"></div>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+{% endblock %}

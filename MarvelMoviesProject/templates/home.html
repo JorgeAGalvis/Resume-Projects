@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename='home.js') }}"></script>
+<script>
+    var topMovies = {{ top_movies|tojson|safe }}
+    var bannerData = {{ banner_data|tojson|safe }}
+</script>
+
+<div id="home-banner-div" class="row"></div>
+<div class="row">
+    <div class="col-2"></div>
+    <div id="toprated-movies-container" class="col-8"></div>
+    <div class="col-2"></div>
+</div>
+
+
+{% endblock %}
